@@ -1,33 +1,22 @@
-
 # Introduction to Git and GitHub
 
-## Project Overview
+## Simple Interest Calculator
 
-This project demonstrates the fundamental concepts of Git and GitHub, including repository forking, cloning, branching, committing changes, merging branches, and creating pull requests.
+This project contains a Bash script that calculates simple interest using the principal amount, annual rate of interest, and time period in years.
 
-## Objectives
+### Input
+- `p`: Principal amount
+- `r`: Annual rate of interest (percentage)
+- `t`: Time period in years
 
-- Understand version control using Git.
-- Create and manage repositories on GitHub.
-- Create and switch between branches.
-- Stage and commit changes.
-- Merge branches and resolve simple issues.
-- Collaborate using pull requests.
+### Formula
+Simple Interest = (Principal × Rate × Time) / 100
 
-## Technologies Used
+### Example
+If principal = 1000, rate = 5, and time = 2 years:
 
-- Git
-- GitHub
-- Bash
+Simple Interest = (1000 × 5 × 2) / 100 = 100
 
-## Project Tasks
-
-1. Fork a repository.
-2. Update project documentation.
-3. Create a simple interest calculator.
-4. Merge a bug-fix branch.
-5. Submit changes through a pull request.
-
-## Author
-
-Disha Thanke
+### How to Run
+```bash
+bash simple-interest.sh

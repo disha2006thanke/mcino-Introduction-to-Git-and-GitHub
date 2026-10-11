@@ -12,30 +12,19 @@ A calculator that calculates simple interest given principal, annual rate of int
 
 ### Output
 
-Simple Interest = (p × t × r) / 100
+Simple Interest = (p * t * r) / 100
 
 ### Example
 
-Input:
-- Principal = 1000
-- Time = 2 years
-- Rate = 5%
+Principal = 1000
+Rate of interest = 5
+Time period = 2 years
 
-Output:
-- Simple Interest = 100
+Simple Interest = (1000 * 5 * 2) / 100 = 100
 
 ### How to Run
 
-Run the Bash script using:
+Run the Bash script:
 
 ```bash
 bash simple-interest.sh
-```
-
-## About
-
-This project demonstrates Git and GitHub, including forking, branching, committing, merging, and pull requests.
-
-## Author
-
-Disha Thanke
